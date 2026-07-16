@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>まぜいろ - えのぐ混色パズル</title>
+<style>
+  :root { color-scheme: light dark;
+    --bg: #F8F5EF; --fg: #2B2620; --muted: #6E675D; --border: #E3DED4; --accent: #2E6E5E; }
+  @media (prefers-color-scheme: dark) { :root {
+    --bg: #1C1A16; --fg: #EFEAE2; --muted: #A8A198; --border: #3A362F; --accent: #4C9A86; } }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+    font-size: 16px; line-height: 1.7; }
+  main { max-width: 65ch; margin-inline: auto; padding: 48px 16px 64px; }
+  h1 { font-size: 31px; line-height: 1.25; margin-bottom: 8px; }
+  .tagline { color: var(--muted); margin-top: 0; }
+  ul { padding-left: 1.2em; }
+  a { color: var(--accent); }
+  .links { margin-top: 48px; border-top: 1px solid var(--border); padding-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+<h1>まぜいろ</h1>
+<p class="tagline">えのぐ混色パズル — まぜて つくって おとどけ</p>
+<p>赤・黄・青の3つの原色をまぜて、注文どおりの色をつくる iPhone 向けパズルゲームです。</p>
+<ul>
+  <li>すべてのレベルは追加アイテムなしでクリアできる設計</li>
+  <li>時間制限なし・ペナルティなし・オフラインでも遊べます</li>
+  <li>色覚アシスト（記号表示）対応</li>
+</ul>
+<div class="links">
+  <p>サポート・お問い合わせ: <a href="mailto:suzakusaiko@gmail.com">suzakusaiko@gmail.com</a></p>
+  <p><a href="./privacy.html">プライバシーポリシー</a> ／ <a href="./terms.html">利用規約</a></p>
+</div>
+</main>
+</body>
+</html>
