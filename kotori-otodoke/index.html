@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ことりのおとどけ</title>
+<style>
+  :root { color-scheme: light dark;
+    --bg: #F5EFE2; --surface: #FFFCF4; --fg: #3A342B; --muted: #756C5B;
+    --border: #E2D9C6; --accent: #C2472E; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #171A26; --surface: #202436; --fg: #ECE7DA; --muted: #A39E92;
+      --border: #363B4F; --accent: #E07B5A; } }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+    font-size: 16px; line-height: 1.7; }
+  main { max-width: 60ch; margin-inline: auto; padding: 48px 24px; }
+  h1 { font-size: 30px; line-height: 1.25; margin: 0 0 8px; }
+  .lead { color: var(--muted); font-size: 18px; margin: 0 0 32px; }
+  ul { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  .links { margin-top: 40px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 12px 20px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--fg);
+    text-decoration: none; min-height: 44px; box-sizing: border-box; }
+  .btn-primary { background: var(--accent); color: #fff; border-color: transparent; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px;
+    border-top: 1px solid var(--border); padding-top: 16px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>ことりのおとどけ</h1>
+  <p class="lead">いろのおてがみを、ことりに はこんでもらう。<br>運もスピードもいらない、じゅんばんを考えるだけの おとどけパズル。</p>
+
+  <ul>
+    <li>ぜんぶで300問。どの問題も「かならず とどけきれる」ことを検証済み</li>
+    <li>つぎに来るポストのじゅんばんは、ぜんぶ見えています。運はゼロ</li>
+    <li>まちがえても だいじょうぶ。アンドゥは何回でも</li>
+    <li>ライフなし・時間制限なし・道具の購入もありません</li>
+    <li>毎日1問の「きょうのおとどけ」で れんぞく記録に挑戦</li>
+    <li>オフラインで完全動作。ダークモード・VoiceOver・大きな文字に対応</li>
+  </ul>
+
+  <div class="links">
+    <a class="btn" href="privacy.html">プライバシーポリシー</a>
+    <a class="btn" href="support.html">サポート・おといあわせ</a>
+  </div>
+
+  <footer>
+    無料で遊べます（広告つき）。&copy; 2026 ことりのおとどけ
+  </footer>
+</main>
+</body>
+</html>
