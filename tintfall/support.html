@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — TintFall</title>
+<style>
+:root { color-scheme: light;
+  --bg:#F5F1E8; --surface:#FFFDF8; --fg:#26221C; --muted:#6F6759;
+  --border:#DDD5C7; --accent:#8C3130;
+  --space-1:8px; --space-2:16px; --space-3:24px; --space-4:32px; --space-5:48px;
+  --radius-md:14px; }
+@media (prefers-color-scheme: dark) { :root { color-scheme: dark;
+  --bg:#161410; --surface:#201D17; --fg:#EDE7DA; --muted:#A69B8A;
+  --border:#3A352C; --accent:#D08A80; } }
+body { margin:0; background:var(--bg); color:var(--fg);
+  font-family: Georgia, "Times New Roman", serif; font-size:16px; line-height:1.6; }
+main { max-width:65ch; margin-inline:auto; padding:var(--space-4) var(--space-3); }
+h1,h2 { line-height:1.25; }
+h1 { font-size:1.75rem; margin:0 0 var(--space-1); }
+h2 { font-size:1.2rem; margin-top:var(--space-4); }
+p, li { margin:var(--space-2) 0; }
+ul { padding-left:1.2em; }
+li { margin:var(--space-1) 0; }
+a { color:var(--accent); }
+footer { color:var(--muted); font-size:0.875rem; margin-top:var(--space-5);
+  border-top:1px solid var(--border); padding-top:var(--space-2); }
+:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+<main>
+<h1>TintFall Support</h1>
+
+<h2>How to play</h2>
+<ul>
+<li>Tap a vessel to select it, then tap another vessel to pour.</li>
+<li>Only the top color moves, and it lands only on a matching color or an
+empty vessel. If there is not enough room, the rest stays behind.</li>
+<li>Finish the level by filling every vessel with a single color.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<p><strong>Is every level actually solvable?</strong><br>
+Yes — provably. Each of the 120 levels ships with a solution found by our
+solver before release, and the "Par" shown in-game is that machine-verified
+minimum move count.</p>
+
+<p><strong>I'm stuck. What are my options?</strong><br>
+Undo is unlimited and free. Restart deals the identical board, so you can try
+a different line. You also get three free hints every day; watching a short
+rewarded ad adds a few more, and that is always optional.</p>
+
+<p><strong>What is the ad policy?</strong><br>
+Ads never appear during a level, on a retry, or at app launch. Between-level
+ads are hard-capped: none until you have cleared ten levels, at most one per
+three clears, and never twice within two minutes. If you see behavior that
+breaks these rules, please report it — that is a bug.</p>
+
+<p><strong>Does TintFall work offline?</strong><br>
+Yes, fully. Ads simply do not appear while offline.</p>
+
+<p><strong>How does the Daily Pour work?</strong><br>
+Every calendar day has one puzzle, the same for every player. Clear it to mark
+the day on your calendar and extend your streak. Replays are welcome but only
+the first clear counts.</p>
+
+<p><strong>Can I move my progress to a new phone?</strong><br>
+Progress is stored only on your device and is not synced or backed up by us,
+so it cannot be transferred. This is part of how TintFall stays account-free
+and offline.</p>
+
+<p><strong>I can't tell some colors apart.</strong><br>
+Turn on <em>Color symbols</em> in Settings — every ink gets a distinct shape
+mark. TintFall also honors the iOS "Differentiate Without Color" setting on
+first launch.</p>
+
+<h2>Contact</h2>
+<p>Found a bug, or something feels unfair? Email
+<a href="mailto:nurseworks.info@gmail.com">nurseworks.info@gmail.com</a> and we
+will get back to you.</p>
+
+<footer>
+<p><a href="index.html">TintFall</a> &middot; <a href="privacy.html">Privacy Policy</a></p>
+<p>&copy; 2026 Eri Munakata</p>
+</footer>
+</main>
+</body>
+</html>
